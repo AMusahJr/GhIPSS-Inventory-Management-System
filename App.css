@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  border-bottom: 4px solid #007bff;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #0056b3;
+}
+
+/* Inventory Styles */
+.inventory-container, .admin-container {
+  padding: 20px;
+}
+
+.inventory-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 400px;
+  margin: auto;
+}
+
+.inventory-list li {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+/* Admin Dashboard */
+.input-group {
+  margin: 20px 0;
+}
+
+.input-field {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.primary-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-button:hover {
+  background-color: #0056b3;
+}
